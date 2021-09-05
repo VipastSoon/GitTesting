@@ -1,0 +1,35 @@
+$ git --version
+
+*Makeing User Presentation
+$ git config --global user.name "VipastSoon"
+$ git config --global user.email "vipast.soon@gmail.com" 
+*>git config --global init.defaultBranch <name>
+
+*Setup for New Repository
+$ git init
+
+* Adding a file
+$ git add file.txt
+$ git status
+
+    On branch master
+
+    No commits yet
+
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+            new file:   file.txt
+
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+            myGit.txt
+
+*Committing The added file
+$ git commit --message "1st Commit only file.txt, not myGit.txt for now!"
+
+*Working with remote GitHub from VS committed
+Browser: Login GitHub, Create now Repository, Name is the same in Project Folder.
+VS Code: Select Menu "View"-> Command Palette:> Git Add Remote
+       : Input Remote URL : https://github.com/VipastSoon/<Project Folder>.git
+       : Input Remote Name : <Project Folder>
+       : Click "Push" Icon at Git Status Bar
