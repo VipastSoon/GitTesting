@@ -10,6 +10,7 @@ $ git init
 
 * Adding a file
 $ git add file.txt
+*>git add . [Dot(.) = All the New/Modified files in Staging Area]
 $ git status
 
     On branch master
